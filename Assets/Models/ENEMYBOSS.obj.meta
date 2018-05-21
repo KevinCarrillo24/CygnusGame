@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 56cb37eeba0fd144ab2b30f8f00c8fa2
+timeCreated: 1526146073
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group3_group2_pCube2
+    100004: group3_pCube10
+    100006: group3_pCube11
+    100008: group3_pCube12
+    100010: group3_pCube13
+    100012: group3_pCube14
+    100014: group3_pCube15
+    100016: group3_pCube3
+    100018: group3_pCube4
+    100020: group3_pCube6
+    100022: group3_pCube7
+    100024: pCube5_group3
+    400000: //RootNode
+    400002: group3_group2_pCube2
+    400004: group3_pCube10
+    400006: group3_pCube11
+    400008: group3_pCube12
+    400010: group3_pCube13
+    400012: group3_pCube14
+    400014: group3_pCube15
+    400016: group3_pCube3
+    400018: group3_pCube4
+    400020: group3_pCube6
+    400022: group3_pCube7
+    400024: pCube5_group3
+    2100000: lambert2SG
+    2100002: lambert7SG
+    2100004: lambert5SG
+    2100006: lambert3SG
+    2100008: lambert6SG
+    2100010: lambert4SG
+    2300000: group3_group2_pCube2
+    2300002: group3_pCube10
+    2300004: group3_pCube11
+    2300006: group3_pCube12
+    2300008: group3_pCube13
+    2300010: group3_pCube14
+    2300012: group3_pCube15
+    2300014: group3_pCube3
+    2300016: group3_pCube4
+    2300018: group3_pCube6
+    2300020: group3_pCube7
+    2300022: pCube5_group3
+    3300000: group3_group2_pCube2
+    3300002: group3_pCube10
+    3300004: group3_pCube11
+    3300006: group3_pCube12
+    3300008: group3_pCube13
+    3300010: group3_pCube14
+    3300012: group3_pCube15
+    3300014: group3_pCube3
+    3300016: group3_pCube4
+    3300018: group3_pCube6
+    3300020: group3_pCube7
+    3300022: pCube5_group3
+    4300000: group3_group2_pCube2
+    4300002: group3_pCube10
+    4300004: group3_pCube11
+    4300006: group3_pCube12
+    4300008: group3_pCube13
+    4300010: group3_pCube14
+    4300012: group3_pCube15
+    4300014: group3_pCube3
+    4300016: group3_pCube4
+    4300018: group3_pCube6
+    4300020: group3_pCube7
+    4300022: pCube5_group3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
