@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 198560267516410464}
   - component: {fileID: 199158339064354448}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Circle01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 198980141537462270}
   - component: {fileID: 199591864835341670}
   m_Layer: 0
-  m_Name: Particles
+  m_Name: Particles01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 198790990177542698}
   - component: {fileID: 199652959487633810}
   m_Layer: 0
-  m_Name: ElectricBeam
+  m_Name: ElectricBeam01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

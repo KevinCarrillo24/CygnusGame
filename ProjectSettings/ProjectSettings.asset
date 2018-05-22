@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-<<<<<<< HEAD
-  productGUID: 08cc38889a16a6f44a4e826f3b270d84
-=======
-  productGUID: 40f5ba24f1b7c13409a2cd4b1500ad7e
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
+  productGUID: 86dcd7244b9326f43b2bd20d020443c6
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -16,11 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-<<<<<<< HEAD
-  productName: Space
-=======
-  productName: CygnusGame
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
+  productName: SpaceShooter02
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -51,13 +43,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-<<<<<<< HEAD
-  defaultScreenWidthWeb: 600
-  defaultScreenHeightWeb: 900
-=======
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
@@ -80,11 +67,7 @@ PlayerSettings:
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-<<<<<<< HEAD
-  runInBackground: 1
-=======
   runInBackground: 0
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -105,11 +88,7 @@ PlayerSettings:
   xboxEnableKinect: 0
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
-<<<<<<< HEAD
-  visibleInBackground: 0
-=======
   visibleInBackground: 1
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   allowFullscreenSwitch: 1
   graphicsJobMode: 0
   macFullscreenMode: 2
@@ -178,19 +157,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-<<<<<<< HEAD
-  applicationIdentifier:
-    Android: com.Company.ProductName
-    Standalone: unity.DefaultCompany.SpaceShooter
-    Tizen: com.Company.ProductName
-    iOS: com.Company.ProductName
-    tvOS: com.Company.ProductName
-  buildNumber:
-    iOS: 0
-=======
   applicationIdentifier: {}
   buildNumber: {}
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
@@ -263,24 +231,14 @@ PlayerSettings:
   iOSURLSchemes: []
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
-<<<<<<< HEAD
-  metalEditorSupport: 0
-  metalAPIValidation: 1
-  iOSRenderExtraFrameOnPause: 1
-=======
   metalEditorSupport: 1
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 0
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   appleDeveloperTeamID: 
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-<<<<<<< HEAD
-  clonedFromGUID: 67ab3ea2d70f8b54ba15254c2ac459c0
-=======
   clonedFromGUID: 00000000000000000000000000000000
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -306,22 +264,10 @@ PlayerSettings:
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
   mobileMTRendering:
-<<<<<<< HEAD
-    iPhone: 1
-    tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality:
-  - m_BuildTarget: Standalone
-    m_EncodingQuality: 1
-  - m_BuildTarget: XboxOne
-    m_EncodingQuality: 1
-  - m_BuildTarget: PS4
-    m_EncodingQuality: 1
-=======
     Android: 1
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality: []
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   wiiUTitleID: 0005000011000000
   wiiUGroupID: 00010000
   wiiUCommonSaveSize: 4096
@@ -354,11 +300,7 @@ PlayerSettings:
   switchSocketConcurrencyLimit: 14
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
-<<<<<<< HEAD
-  switchApplicationID: 0x0005000C10000001
-=======
   switchApplicationID: 0x01004b9000490000
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   switchNSODependencies: 
   switchTitleNames_0: 
   switchTitleNames_1: 
@@ -424,11 +366,7 @@ PlayerSettings:
   switchAccessibleURLs: 
   switchLegalInformation: 
   switchMainThreadStackSize: 1048576
-<<<<<<< HEAD
-  switchPresenceGroupId: 0x0005000C10000001
-=======
   switchPresenceGroupId: 
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   switchLogoHandling: 0
   switchReleaseVersion: 0
   switchDisplayVersion: 1.0.0
@@ -440,13 +378,8 @@ PlayerSettings:
   switchUserAccountSaveDataSize: 0
   switchUserAccountSaveDataJournalSize: 0
   switchApplicationAttribute: 0
-<<<<<<< HEAD
-  switchCardSpecSize: 4
-  switchCardSpecClock: 25
-=======
   switchCardSpecSize: -1
   switchCardSpecClock: -1
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   switchRatingsMask: 0
   switchRatingsInt_0: 0
   switchRatingsInt_1: 0
@@ -460,11 +393,7 @@ PlayerSettings:
   switchRatingsInt_9: 0
   switchRatingsInt_10: 0
   switchRatingsInt_11: 0
-<<<<<<< HEAD
-  switchLocalCommunicationIds_0: 0x0005000C10000001
-=======
   switchLocalCommunicationIds_0: 
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   switchLocalCommunicationIds_1: 
   switchLocalCommunicationIds_2: 
   switchLocalCommunicationIds_3: 
@@ -492,11 +421,7 @@ PlayerSettings:
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
-<<<<<<< HEAD
-  ps4ParentalLevel: 1
-=======
   ps4ParentalLevel: 11
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   ps4ContentID: ED1633-NPXX51362_00-0000000000000000
   ps4Category: 0
   ps4MasterVersion: 01.00
@@ -506,11 +431,7 @@ PlayerSettings:
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
-<<<<<<< HEAD
-  ps4VideoOutReprojectionRate: 120
-=======
   ps4VideoOutReprojectionRate: 60
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   ps4PronunciationXMLPath: 
   ps4PronunciationSIGPath: 
   ps4BackgroundImagePath: 
@@ -546,11 +467,7 @@ PlayerSettings:
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
-<<<<<<< HEAD
-  ps4ScriptOptimizationLevel: 3
-=======
   ps4ScriptOptimizationLevel: 0
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -633,35 +550,21 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-<<<<<<< HEAD
-  scriptingBackend:
-    Standalone: 0
-    WebPlayer: 0
-=======
   scriptingBackend: {}
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-<<<<<<< HEAD
-  metroPackageName: SpaceShooter
-=======
-  metroPackageName: CygnusGame
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
+  metroPackageName: SpaceShooter02
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-<<<<<<< HEAD
-  metroApplicationDescription: SpaceShooter
-=======
-  metroApplicationDescription: CygnusGame
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
+  metroApplicationDescription: SpaceShooter02
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -670,19 +573,11 @@ PlayerSettings:
   metroLargeTileShowName: 0
   metroWideTileShowName: 0
   metroDefaultTileSize: 1
-<<<<<<< HEAD
-  metroTileForegroundText: 1
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628,
-    a: 1}
-  metroSplashScreenUseBackgroundColor: 1
-=======
   metroTileForegroundText: 2
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   platformCapabilities: {}
   metroFTAName: 
   metroFTAFileTypes: []
@@ -729,29 +624,17 @@ PlayerSettings:
   XboxOneSplashScreen: {fileID: 0}
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
-<<<<<<< HEAD
-=======
-  XboxOneXTitleMemory: 8
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   xboxOneScriptCompiler: 0
   vrEditorSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
-<<<<<<< HEAD
-  facebookSdkVersion: 7.9.1
-  apiCompatibilityLevel: 2
-  cloudProjectId: fa4df709-59cb-432e-a349-d3feee8cb25d
-  projectName: New Unity Project (2)
-=======
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 40e0fe0c-ab83-4df1-bd9d-d493729c442e
-  projectName: CygnusGame
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
-  organizationId: kevincarrilloacosta
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

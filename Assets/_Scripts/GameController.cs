@@ -120,7 +120,7 @@ public class GameController : MonoBehaviour
         if (!isCreated)
         {
             Vector3 enemyPosition = new Vector3(3.62f, 0.0f, 22);
-            Quaternion enemyRotation = Quaternion.identity;
+            Quaternion enemyRotation = new Quaternion(0, 180, 0, 1);
             Instantiate(enemy, enemyPosition, enemyRotation);
             isCreated = true; 
         }

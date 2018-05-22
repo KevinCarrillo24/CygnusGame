@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
-  tags:
-  - Boundary
-  - Bolt
-  - Hazard
-  - powerup
-  - Enemy
-=======
   tags: []
->>>>>>> f6afc4189ae21e93b2b95ef833629b819bc23eba
   layers:
   - Default
   - TransparentFX

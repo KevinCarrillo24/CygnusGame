@@ -11,14 +11,21 @@ public class SpeedPowerup : MonoBehaviour {
         {
             StartCoroutine( Pickup(other));
         }
+        if (other.tag == "Enemy")
+        {
+            return;
+        }
+
 
     }
 
     public IEnumerator Pickup(Collider Player)
     {
         PlayerController.instace.speed = 25;
-
         GetComponent<Collider>().enabled = false;
+        GameObject.Find("Circle02").SetActive(false);
+        GameObject.Find("Particles02").SetActive(false);
+        GameObject.Find("ElectricBeam02").SetActive(false);
 
         yield return new WaitForSeconds(duration);
 

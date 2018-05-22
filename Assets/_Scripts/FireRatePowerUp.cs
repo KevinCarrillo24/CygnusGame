@@ -11,6 +11,10 @@ public class FireRatePowerUp : MonoBehaviour
         {
             StartCoroutine( Pickup(other));
         }
+        if (other.tag =="Enemy")
+        {
+            return;
+        }
 
     }
 
@@ -19,6 +23,9 @@ public class FireRatePowerUp : MonoBehaviour
         PlayerController.instace.fireRate = 0.10f;
         
         GetComponent<Collider>().enabled = false;
+        GameObject.Find("Circle01").SetActive(false);
+        GameObject.Find("Particles01").SetActive(false);
+        GameObject.Find("ElectricBeam01").SetActive(false);
 
         yield return new WaitForSeconds(duration);
 

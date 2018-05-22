@@ -26,14 +26,14 @@ public class DestroyByContact : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Boundary") || other.CompareTag("Enemy")) 
+        if (other.CompareTag("Boundary") || other.CompareTag("Enemy"))
         {
             return;
-        } 
+        }
         if (other.tag == "Player")
         {
-            PlayerController.instace.health -=1;    
-        }
+            PlayerController.instace.health -= 1;
+        } 
 
         if (explosion != null)
         {
