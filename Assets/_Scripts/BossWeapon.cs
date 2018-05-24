@@ -9,6 +9,8 @@ public class BossWeapon : MonoBehaviour
     public GameObject shot;
     public Transform shotSpawn;
     public Transform shotSpawnTwo;
+    public Transform shotSpawnThree;
+    public Transform shotSpawnFour;
     public float fireRate;
     public float delay;
 
@@ -23,5 +25,11 @@ public class BossWeapon : MonoBehaviour
         Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
         Instantiate(shot, shotSpawnTwo.position, shotSpawnTwo.rotation);
         //audiosource.Play();
+        if(DestroyBoss.instace.life <=100)
+        {
+            Instantiate(shot, shotSpawnThree.position, shotSpawnThree.rotation);
+            Instantiate(shot, shotSpawnFour.position, shotSpawnFour.rotation);
+        }
+
     }
 }

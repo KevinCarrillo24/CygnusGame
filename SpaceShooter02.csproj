@@ -297,6 +297,7 @@
     <Compile Include="Assets\_Scripts\Mover.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\_Scripts\Rotator.cs" />
     <Compile Include="Assets\_Scripts\SpeedPowerup.cs" />
     <Compile Include="Assets\_Scripts\WeaponController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />

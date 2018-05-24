@@ -15,9 +15,6 @@ public class LifePowerUps : MonoBehaviour {
             return;
         }
         PlayerController.instace.health += 1;
-        GameObject.Find("Circle01").SetActive(false);
-        GameObject.Find("Particles01").SetActive(false);
-        GameObject.Find("ElectricBeam01").SetActive(false);
         Destroy(gameObject);
     }
 }
