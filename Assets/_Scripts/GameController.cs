@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class GameController : MonoBehaviour
     private float WaveCount;
     private Scene scene;
 
-    public TextMesh scoreText;
+    public Text scoreText;
     public TextMesh restartText;
     public TextMesh gameOverText;
 

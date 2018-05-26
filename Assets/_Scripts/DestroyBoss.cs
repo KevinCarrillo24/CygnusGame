@@ -48,7 +48,7 @@ public class DestroyBoss : MonoBehaviour {
         life--;
         if (life <= 0)
         {
-//            gameController.AddScore(scoreValue);
+            gameController.AddScore(scoreValue);
             Destroy(gameObject);
         }
     }
