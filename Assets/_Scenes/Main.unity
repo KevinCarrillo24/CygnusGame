@@ -1203,21 +1203,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hazards:
-  - {fileID: 1789230361542842, guid: 1c9f75bdaeebe584d91ab6f24a7dddbc, type: 2}
+  - {fileID: 1583741513379228, guid: ca4852a28ba2cb04a848ee101b8cf58a, type: 2}
+  - {fileID: 1583741513379228, guid: ca4852a28ba2cb04a848ee101b8cf58a, type: 2}
+  - {fileID: 1583741513379228, guid: ca4852a28ba2cb04a848ee101b8cf58a, type: 2}
+  - {fileID: 1583741513379228, guid: ca4852a28ba2cb04a848ee101b8cf58a, type: 2}
+  - {fileID: 1583741513379228, guid: ca4852a28ba2cb04a848ee101b8cf58a, type: 2}
   - {fileID: 1826355806113950, guid: 48baf59f79afb61449347e60ebcacfa5, type: 2}
-  - {fileID: 1789230361542842, guid: 1c9f75bdaeebe584d91ab6f24a7dddbc, type: 2}
-  - {fileID: 1789230361542842, guid: 1c9f75bdaeebe584d91ab6f24a7dddbc, type: 2}
-  - {fileID: 1789230361542842, guid: 1c9f75bdaeebe584d91ab6f24a7dddbc, type: 2}
-  - {fileID: 1789230361542842, guid: 1c9f75bdaeebe584d91ab6f24a7dddbc, type: 2}
   powerups:
   - {fileID: 1222460736796318, guid: 33c00498e85a7634488aed67b65f1ed2, type: 2}
   - {fileID: 1671966577453016, guid: 73f67b33389b3f041893c086c42e0ec4, type: 2}
   - {fileID: 1125176799742822, guid: a5a985f3f752c4c4d96fa47a5a96594c, type: 2}
   enemy: {fileID: 1469680036459640, guid: cbeae1e8df78f39449cf2ab25e6e8e62, type: 2}
-  spawnValues: {x: 6, y: 0, z: 16}
-  hazardCount: 10
-  powerUpCount: 3
-  spawnWait: 0.5
+  spawnValues: {x: 6.5, y: 0, z: 16}
+  hazardCount: 30
+  powerUpCount: 5
+  spawnWait: 0.2
   spawnPorwerUpWait: 4
   spawnStart: 1
   waitWave: 4
