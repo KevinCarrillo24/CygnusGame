@@ -6,14 +6,11 @@ public class LifePowerUps : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Boundary")
+        if (other.tag != "Player")
         {
             return;
         }
-        if (other.tag == "Bolt")
-        {
-            return;
-        }
+    
         PlayerController.instace.health += 1;
         Destroy(gameObject);
     }

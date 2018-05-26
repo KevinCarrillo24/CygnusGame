@@ -35,6 +35,11 @@ public class DestroyByContact : MonoBehaviour
             PlayerController.instace.health -= 1;
         } 
 
+        if(other.tag == "PowerUp")
+        {
+            return;
+        }
+
         if (explosion != null)
         {
             Instantiate (explosion, transform.position, transform.rotation);

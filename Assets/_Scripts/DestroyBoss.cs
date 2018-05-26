@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DestroyBoss : MonoBehaviour {
     public GameObject explosion;
+    public GameObject hit;
     public GameObject playerExplosion;
     public int life;
     public int scoreValue;
@@ -25,7 +26,7 @@ public class DestroyBoss : MonoBehaviour {
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Boundary") || other.CompareTag("Enemy"))
+        if (other.CompareTag("Boundary") || other.CompareTag("Enemy") || other.CompareTag("PowerUp"))
         {
             return;
         }
@@ -34,9 +35,10 @@ public class DestroyBoss : MonoBehaviour {
             PlayerController.instace.health -= 1;
         }
 
+
         if (explosion != null)
         {
-            Instantiate(explosion, transform.position + new Vector3(-3, 1, -3), transform.rotation);
+            Instantiate(hit, transform.position + new Vector3(-3, 1, -4), transform.rotation);
         }
 
         if (other.tag == "Player" && PlayerController.instace.health == 0)
@@ -48,8 +50,10 @@ public class DestroyBoss : MonoBehaviour {
         life--;
         if (life <= 0)
         {
+            Instantiate(explosion, transform.position + new Vector3(-3, 1, -3), transform.rotation);
             gameController.AddScore(scoreValue);
             Destroy(gameObject);
+            gameController.GameOver();
         }
     }
 }

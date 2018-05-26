@@ -24,8 +24,8 @@ public class BossWeapon : MonoBehaviour
     {
         Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
         Instantiate(shot, shotSpawnTwo.position, shotSpawnTwo.rotation);
-        //audiosource.Play();
-        if(DestroyBoss.instace.life <=100)
+        audiosource.Play();
+        if(DestroyBoss.instace.life <=150)
         {
             Instantiate(shot, shotSpawnThree.position, shotSpawnThree.rotation);
             Instantiate(shot, shotSpawnFour.position, shotSpawnFour.rotation);

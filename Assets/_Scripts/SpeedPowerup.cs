@@ -21,7 +21,7 @@ public class SpeedPowerup : MonoBehaviour {
 
     public IEnumerator Pickup(Collider Player)
     {
-        PlayerController.instace.speed = 25;
+        PlayerController.instace.speed = 15;
         GetComponent<Collider>().enabled = false;
         GameObject.Find("Circle02").SetActive(false);
         GameObject.Find("Particles02").SetActive(false);

@@ -20,8 +20,9 @@ public class GameController : MonoBehaviour
     private Scene scene;
 
     public Text scoreText;
-    public TextMesh restartText;
-    public TextMesh gameOverText;
+    public Text lifeText;
+    public Text restartText;
+    public Text gameOverText;
 
     private bool gameOver;
     private bool restart;
@@ -45,6 +46,7 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
+        UpdateScore();
         if (restart)
         {
             if (Input.GetKeyDown(KeyCode.R))
@@ -53,7 +55,7 @@ public class GameController : MonoBehaviour
             }
 
         }
-        if (WaveCount >= 1)
+        if (WaveCount >= 5f)
         {
             BossFight();
         }
@@ -74,7 +76,7 @@ public class GameController : MonoBehaviour
             }
             if (gameOver)
             {
-                restartText.text = "Press 'R' to restart the game";
+                restartText.text = "press 'r' to restart the game";
                 restart = true;
                 break;
             }
@@ -103,15 +105,17 @@ public class GameController : MonoBehaviour
     public void AddScore(int newScoreValue)
     {
         score += newScoreValue;
-        UpdateScore();
+        
     }
     private void UpdateScore()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = "score: " + score;
+        lifeText.text = "" + PlayerController.instace.health;
+
     }
     public void GameOver()
     {
-        gameOverText.text = "Game Over!";
+        gameOverText.text = "game over!";
         gameOver = true;
     }
 
